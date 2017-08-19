@@ -1,0 +1,302 @@
+@charset "utf-8";
+*{margin:0 auto;padding:0 auto;}
+body{text-align: center;
+              padding:0 ; 
+              margin:0 auto;
+              width: 100%;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+div{margin:0 auto;border:0;
+  text-align: left;}
+
+
+
+
+ 
+.top{position: absolute;
+  height: 50px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top_menu li{float: left;}
+.top_menu img{width: 160px;
+             height: 50px;}
+
+.top_menu .menu1{
+        margin-left: 180px;
+        width: 160px;
+         height: 50px;}
+
+.top_menu .menu2{
+      padding-left: 600px; 
+      margin-top: 4px;
+      color:#999999 ;
+      font-size: 12px;
+      font-family: '微软雅黑';
+      cursor: pointer;
+    }
+
+
+.top_menu .menu3{
+      margin-left: 30px;
+       margin-top: 4px;
+       color:#999999 ;
+       font-size: 0.2em;
+       font-family: '微软雅黑';}
+
+
+.top_menu .enterto{
+      background-color: #ffffff;
+      border: none;
+      font-family: '微软雅黑';
+      color: #999999;
+      font-size: 12px;}
+
+input{
+      background: #ffffff;
+      border: none;
+      font-family: '微软雅黑';
+      color: #999999;
+      border-color: #ffffff;
+      outline: none;
+      
+    }
+.enterto:hover{
+            color: #bed742;
+            cursor: pointer;
+        }
+
+
+
+
+#div1 {display: none;
+      position: absolute;
+      z-index: 101;
+      height: 190%;
+      width:100%;
+      top:0;
+      left:0;
+      background:#000000;
+      color:white;
+      opacity: 0.5;
+      filter:alpha(opacity=25);
+      /*filter:Alpha(opacity=100);
+    -moz-opacity:.5;opacity:0.5;/*黑色钟罩透明度为百分之五十*/   
+     }
+    
+     
+
+#enter{display: none;
+      position: fixed;
+      left:0%;
+      top: 12%;
+      height: 100%;
+      width: 100%;
+      z-index: 102;
+      
+      }
+.biaoge{
+      background:#ffffff;
+      color:#999999;
+      font-family: '微软雅黑';
+      margin-top: 200px;}
+.p1{
+      font-weight: bold;
+      font-size: 14px; 
+      font-family: '微软雅黑';
+      color:#666666;}
+input{outline: none;}
+input.word{border:1px #999999 solid;
+          
+           background-color: #ffffff;}
+input.close{
+      background:#ffffff;
+      border: 0;
+      font-size: 16px;
+    }
+
+input.close:hover{background:#980000;
+                  border-radius: 5px;
+                  cursor:pointer;
+                  }
+input.yes{
+      color: #666666;
+      font-family:'微软雅黑';
+      background-color:#bed742; 
+      border-radius: 5px;width: 100px; 
+      border: 0;
+      font-family: '微软雅黑';
+      font-size: 14px;
+      font-weight: bold;
+      color: #333333;
+
+    }
+
+
+
+
+
+.box {
+      margin:0 auto;
+      padding:0;
+    
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin: 40px auto;
+      background: #bed742;
+      overflow: hidden;
+      background-attachment:fixed;
+      background-repeat: no-repeat;
+      
+    }
+    .box .wrap{
+      position: absolute;
+      width: 6800px;
+      height: 500px;
+      z-index: 99;
+      overflow:hidden;
+    }
+    /*.wrap ul li{float: left;}*/
+    .box .wrap img {
+
+      float: left;
+      width:1360px;
+      height: 500px;
+   
+    }
+    .box .button {
+      position: absolute;
+      left: 650px;
+      bottom:40px;
+      width: 150px;
+      height: 20px;
+      z-index: 100;
+    }
+    .box .button span {
+      margin-left: 5px;
+      display: inline-block;
+      width: 10px;
+      height: 12px;
+      border-radius: 10px;
+      background:#675e53;
+      text-align: center;
+      color:white;
+      cursor: pointer;
+      z-index:100;/*  :cursor规则是设定网页浏览时用户鼠标指针的样式,也就是鼠标的图形形状 
+      cursor:pointer设定鼠标的形状为一只伸出食指的手 */
+    }
+    
+    .box .button span.begin{
+      background:#b1aea7;
+    }
+
+
+    .box .arrow {
+      position: absolute;
+      top: 40%;
+      color: #ffffff;
+      padding:0px 14px;
+      border-radius: 0 5px 5px 0;
+      font-size: 80px;
+      z-index: 200;
+      display: none;
+    }
+    .box .arrow1 {
+      border-radius: 0 15px 15px 0;
+      margin-left: 200px;
+    }
+    .box .arrow2 {
+      border-radius: 15px 0 0 15px;
+      margin-left: 1000px;
+    }
+    .box:hover .arrow {
+      display: block;
+    }
+    .box .arrow:hover {
+      background-color: rgba(0,0,0,0.4);/*0.2可以设置透明度（alpha值）越接近1透明度越低*/
+    }
+  
+
+
+
+.container{position:absolute;
+          margin: 600px auto;         
+          width: 25%;
+          left: 500px;
+          overflow: hidden;
+        }
+
+form{float: left;
+     background: #ffffff;}
+
+.frame{height: 20px;
+  width: 300px;
+border:1px #999999 solid;
+}
+
+.hand{background: #bed742;
+  border:0;
+  width: 40px;
+  height:24px;
+      border-radius: 0.2em;
+      font-size: 14px;
+      color: #000000;
+      margin-left: -46px;
+     }
+
+
+.hot_sch{width: 30%;}
+.school{border:1px solid #999999;
+  width:300px;
+  height: 250px;
+  position: absolute;
+  top: 700px;
+  left: 500px;
+}
+.school ul{
+  padding-top: 20px;}
+.school ul li{
+  font-size: 14px;
+  line-height:20px;
+  color: #333333;
+  font-weight: bold;
+  background-color: #bed742;
+              width: 80px;
+              border-radius: 0 5px 5px 0;
+              margin-left: -40px;}
+
+.school_name{padding-top:20px;}
+table{border-color: 2px solid #f8f7f3
+  ;text-align: center;}
+td{width: 200px;
+  height: 30px;border:none;}
+.school .span{width: 50px;background:#bed742; }
+.school_name a{color: #666666;font-size: 12px;font-family: '微软雅黑';}
+.school_name a:hover{color: #bed742;}
+
+
+
+.bottom{position:absolute;overflow: hidden;width:100%;margin-top: 1100px;width: 80%;}
+
+
+.pic{margin-left: 250px;}
+.cqupt{margin-left: 400px;}
+.address{margin-left: 530px;}
+.bottom a{color:#999999;
+  font-size: 12px;
+  font-family: '微软雅黑';
+  line-height: 20px;}
+
+  .bottom a:hover{color: #cccccc;}
+
+
+
+
+
+
+
+

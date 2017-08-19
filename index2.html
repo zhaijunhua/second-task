@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test2</title>
+<link href="style/css.css" rel="stylesheet">
+<script type="text/javascript" src="js/zishiying.js"></script>
+
+<script type="text/javascript" src="js/javascript1.js"></script>    <!--弹出层Js链接-->
+</head>
+<body>
+
+<!--顶部-->
+
+<div class="top"id="top">
+	<ul class="top_menu">
+		<li class="menu1"><img src="images/top1.png"></li>
+		<li class="menu2">
+		<form>
+				<input  type="button" onClick="openit()" value="登陆" class="enterto" class="put" id="put" /></li>
+			</form>
+		<li class="menu3">
+			<form>
+				<input name="button" type="button" onclick="openit()" value="注册" class="enterto" id="put" /></li>
+			</form>
+	</ul>
+</div>
+
+<!--<div id="div1"></div>-->
+<div id="div1"onmousedown="press()"></div><!--遮罩层所在的div-->
+
+
+
+
+<!--登录框-->
+
+<div id="enter">
+<table width="300" border="0" cellpadding="3" cellspacing="1" align="center" class="biaoge">
+	<tr>
+		<td><font color="#333333"><strong><center>登录</center></strong></font></td>
+		<td align="right">
+			<input type="button" value="ｘ" onClick="closeit()"  class="close" id="close">
+		</td>
+	</tr>
+	<tr>
+		<form name="register"  method="post"  >
+			<td colspan="2" width="400" bgcolor="#FFFFFF" height="150" font-color="#666666">
+			<p class="p1">
+				&nbsp;&nbsp;&nbsp;账号&nbsp;&nbsp;<input type="text" name="username" class="word"id="username"><br>
+
+				<br>&nbsp;&nbsp;&nbsp;密码&nbsp;&nbsp;<input type="password" name="pasword" class="word"><br></p>
+				<br><center><input type="button" name="in" value="登陆" onClick="into()"class="yes"id="yes"></center>
+			</td>
+		</form>
+	</tr>
+</table>
+</div>
+
+
+
+
+
+<!--轮播盒子-->	
+<div class="box">
+    <div class="wrap" style="left:-1360px;">
+      
+     <!--
+    <ul class="a">
+       <li><a href="#"> <img src="images/picture3.jpg"></a></li>
+      <li><a href="#"><img src="images/picture1.png"></a></li>
+    <li> <a href="#"> <img src="images/picture2.jpg"></a></li>
+      </ul><a href="#"><img src="images/picture3.jpg"></a></div>
+      <li><a href="#"><img src="images/picture1.png"></a></li>
+
+      </ul><!--比进行轮播的图片要多出来两张，为了在图片轮播过程中可以循环，不会是轮播的顺序出现错误-->
+
+
+
+		<a href="#"> <img src="images/picture3.jpg"></a>
+      	<a href="#"><img src="images/picture1.png"></a>
+    	<a href="#"> <img src="images/picture2.jpg"></a>
+      	<a href="#"><img src="images/picture3.jpg"></a>
+      <a href="#"><img src="images/picture1.png"></a>
+    </div>
+    <div class="button">
+      <span class="begin"></span>
+      <span></span>
+      <span></span>
+     
+    </div>
+
+     <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" class="arrow arrow1">&lt;</a>
+    <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" class="arrow arrow2">&gt;</a>
+  </div>
+  <script type="text/javascript" src="js/lunbo.js"></script>
+
+
+<!--搜索框-->
+
+  <div class="container" >
+  			
+  			 		<form class="" method="post" >
+  						<!--<input type="text" name="search" id="search" size="50" class="frame">
+  						<input type="submit" name="give" id="give" value="搜索" class="hand">-->
+						<input type="text" name="put" id="put" class="frame"/>
+  						<input type="button" name="" class="hand" value="提交" id="get" onclick="submit()" />
+  					</form>
+  			
+	</div>
+	
+
+<script type="text/javascript" src="js/search.js"></script>
+
+
+
+<!--热门高校-->
+<div class="hot_sch" id="schoola">
+	<div class="school">
+	<ul>
+
+						<li class="hot">热门高校</li>
+				</ul>
+
+				<table class="school_name"  cellspacing="0" cellpadding="0">				
+					<tr>
+						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
+						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
+						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
+						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
+						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
+						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
+					</tr>			
+			
+				</table>
+	</div>
+</div>
+
+
+
+<!--底部-->
+	<div class="bottom">
+	<ul>
+		<li class="pic"><img src="images/bottom.png"></li>
+		<li class="cqupt"><a href="#">版权所有 | 重庆邮电大学 | 重庆市南岸区崇文路2号 | 400065 | 渝ICP备：17002788号-1</a></li>
+		<li class="address"><a href="#">渝公网安备 50010802001309号</a></li>
+	</ul>
+	</div>
+	</script>
+
+  </div>
+  
+<script type="text/javascript" src="js/lunbo.js"></script>
+<!--<script type="text/javascript" src="js/search.js"></script>-->
+</body>
+</html>
