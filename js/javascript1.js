@@ -12,8 +12,9 @@ closeit();
 }
 
 function press(){
-	alert();
-	closeit();
+	document.getElementById('div1').style.display='none';
+	document.getElementById('enter').style.display='none';
+	
 }
 	
 

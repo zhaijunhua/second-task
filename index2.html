@@ -28,7 +28,7 @@
 </div>
 
 <!--<div id="div1"></div>-->
-<div id="div1"onmousedown="press()"></div><!--遮罩层所在的div-->
+<div id="div1" onmousedown="press()"></div><!--遮罩层所在的div-->
 
 
 
@@ -97,57 +97,32 @@
 
 
 <!--搜索框-->
-
+<div>
   <div class="container" >
   			
   			 		<form class="" method="post" >
   						<!--<input type="text" name="search" id="search" size="50" class="frame">
   						<input type="submit" name="give" id="give" value="搜索" class="hand">-->
-						<input type="text" name="put" id="put" class="frame"/>
-  						<input type="button" name="" class="hand" value="提交" id="get" onclick="submit()" />
+						<input type="text" name="put" id="puton" class="frame"/>
+  						<input type="button" name="" class="hand" value="提交" id="get"  />
   					</form>
   			
 	</div>
 	
 
-<script type="text/javascript" src="js/search.js"></script>
 
 
 
-<!--热门高校-->
-<div class="hot_sch" id="schoola">
+
+<!--搜索盒子，存入已经收缩过的大学-->
+<div class="hot_sch" id="school_1">
 	<div class="school">
-	<ul>
-
+				<ul>
 						<li class="hot">热门高校</li>
-				</ul>
-
-				<table class="school_name"  cellspacing="0" cellpadding="0">				
-					<tr>
-						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
-						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
-					</tr>
-					<tr>
-						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
-						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
-					</tr>
-					<tr>
-						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
-						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
-					</tr>
-					<tr>
-						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
-						<td><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">重庆邮电大学</a></td>
-					</tr>
-					<tr>
-						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
-						<td><a href="http://www.aufe.edu.cn/">安徽财经大学</a></td>
-					</tr>			
-			
-				</table>
+				</ul>		
 	</div>
 </div>
-
+</div>
 
 
 <!--底部-->
@@ -158,11 +133,14 @@
 		<li class="address"><a href="#">渝公网安备 50010802001309号</a></li>
 	</ul>
 	</div>
-	</script>
+	
 
   </div>
   
+  
 <script type="text/javascript" src="js/lunbo.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/save.js"></script>
 <!--<script type="text/javascript" src="js/search.js"></script>-->
 </body>
 </html>

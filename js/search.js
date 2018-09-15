@@ -2,18 +2,14 @@
 		
 
 		window.onload=function(){
-			put=document.getElementById('put');
-			get=document.getElementById('get');
+			 puton=document.getElementById('puton');
+			 get=document.getElementById('get');
 			get.onclick=function(){
 				var reg=/[^\u4E00-\u9FA5]/g;
-				if(reg.test(put.value)){
+				if(reg.test(puton.value)){
 					alert("输入错误请重新输入");
 				}
 				
-			}
-		}
-
-
 
 
 
